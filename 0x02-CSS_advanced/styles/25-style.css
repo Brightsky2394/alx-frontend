@@ -420,21 +420,6 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-.button {
-    display: var(--button-display);
-    padding: var(--button-padding);
-    border-style: var(--button-border);
-    font-size: var(--button-font-size);
-    color: var(--button-color);
-    text-decoration: var(--button-text-decoration);
-}
-
-.button:hover {
-    color: var(--button-hover-color);
-    text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-hover-background);
-}
-
 .navbar-menu {
     float: right;
 }
@@ -562,10 +547,6 @@ ul.row {
     color: var(--text-color);
 }
 
-.footer ul {
-    text-align: right;
-}
-
 .footer-address {
     color: var(--text-color);
 }
@@ -574,7 +555,7 @@ ul.row {
     display: block;
 }
 
-.social-link > svg {
+.social-link>svg {
     fill: var(--text-color);
 }
 
@@ -592,6 +573,25 @@ ul.row {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
+}
+
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+}
+
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
+}
+
+.footer ul {
+    text-align: right;
 }
 
 :root {
